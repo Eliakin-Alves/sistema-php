@@ -5,7 +5,7 @@
         private $telefone;
         private $email;
         private $cpf;
-        public __construct(){
+        public function __construct(){
             
         }
 
