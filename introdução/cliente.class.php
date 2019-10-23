@@ -16,7 +16,11 @@ class cliente{
     public function getEmail() {
         return $this->email;
     }
+    public static function mensagem() {
+        echo "Olá Mundo! <br ?>";
+    }
 }
+Cliente::mensagem(); // uso estático
 $obj = new Cliente();
 $obj->setEmail("eli@email.com"); // com encapsulamento
 echo $obj->getEmail(); // com encapsulamento
